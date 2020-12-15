@@ -1,218 +1,319 @@
-Asep Upload diatas 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Yafeth Upload disini 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Al Upload 
-
-
-
-/* ======== Ini buat BLOG =========== */
-.blog1 {
-    margin-left: 100px;
-    position: relative;
-    margin-top: 100px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: inherit;
+    text-decoration: none;
 }
-.blog1 img{
+
+.nav-link {
+    text-align: center;
+}
+
+.banner {
+    position: relative;
+    margin-top: 30px;
+    height: 600px;
+}
+.banner h1 {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 70px;
+}
+.banner p {
+    font-family: Arial;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.banner .tombol a{
+    padding: 15px 10px ;
+    border-radius: 40px;
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    margin-left: 10px;
+   
+}
+.banner .tombol a:hover {
+    color: #FF04E6;
+}
+.banner img {
     height: 300px;
 }
-.blog1 p{
-    font-family: 'Palanquin Dark';
-    font-size: 13px;
-    color: #AAAAAA;
-    text-align: justify;
-    width: 37%;
-}   
-.blog1 h4 {
-    font-family: 'Palanquin Dark';
-    font-size: 20px;
-}
-.blog1 .readme img {
-    height: 40px;
-    position: absolute;
-    top: 500px;
-    right: 120px;
-}
-.blog2 {
+
+.lay1 { 
+    margin-top: 150px;
     position: relative;
-    height: 90vh;
-    margin-top: 50px;
+    background-color: #F9F9F9;
+    text-align: center;
+    border-radius: 20px;
 }
-.blog2 .blog2-1 {
-    height: 400px;
-    width: 43%;
-    display: inline-block;
-    margin-right: 35px;
-    margin-bottom: 40px;
+.lay1 h1{
+    font-family: 'Sanchez', serif;
+    color:#F5A25D ;
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
-.blog2 .blog2-1 img {
-    height: 170px;
-    border: 2px solid black;
+.lay1 p {
+    font-size:11px;
+    color: #535353;
+    padding-bottom: 50px;
 }
-.blog2 .blog2-1 p {
-    text-align: justify;
-    font-family: 'arial';
-    font-size: 12px;
-    color: #AAAAAA;
-    width: 80%;
+
+.lay2 {
+    height: 600px;
+    margin-top: 20px;
+    position: relative;
 }
-.blog2 .blog2-1 h4 {
-    font-family: 'Palanquin Dark';
-    font-size: 17px;
-}
-.blog2 .blog2-1 .readme img{
-    border: none;
-    height: 30px;
-    margin-left: 190px;
+.lay2 img{
+    height: 340px;
+    margin-left: 23%;
     margin-top: 0;
 }
+.lay2 h1 {
+    padding-top: 50px;
+    font-family: arial;
+    color:#F5A25D ;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.lay2 p {
+    font-family: arial;
+    font-size: 13px;
+    color: #4D4D4D;
+    text-align: justify;
+    margin-left: 25%;
+}
+.lay3 {
+    margin-top: 50px;
+    position: relative;
+    background-color: #F9F9F9;
+    text-align: center;
+    border-radius: 20px;
+}
+.lay3 h1{
+    text-align: center;
+    font-family: 'Sanchez', serif;
+    color:#F5A25D ;
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.lay3 p {
+    font-size:10px;
+    color: #535353;
+    padding-bottom: 50px;
+}
+.lay4 img {
+    position: relative;
+    margin-top: 50px;
+    height: 98px;
+    margin-bottom: 40px;
+}
 
-.halaman {
-    margin-top: 500px;
-    height: 300px;
+.lay5 {
+    height: 400px;
     position: relative;
 }
-.halaman1 {
-    margin-left: 15%;
+.lay5 h1 {
+    margin-left: 100px;
+    padding-top: 50px;
+    font-family: arial;
+    color:#F5A25D ;
+    font-size: 30px;
+    padding-bottom: 40px;
 }
-.halaman .halaman1  img {
-    height: 30px;
+.lay5 p {
+    text-align: right;
+    font-family: arial;
+    width: 300px;
+    font-size: 12px;
+    color: #4D4D4D;
 }
-.halaman .halaman1 h5 {
-    margin: 0 20px; 
-    padding: 10px 15px; 
-    background-color:#F6F6F6 ;
+.lay5 img {
+    height: 340px;
+    margin-top: -100px;
+    position: absolute;
+    margin-left: 300px;
+}
+.lay6 img {
+    margin-top: 20px;
+    height: 290px;
+    margin-bottom: 100px;
+}
+
+.footer {
+    background-color: #FBF8F8;
+    height: 205px;
+    position: relative;
+}
+.footer img{
+    margin-top: 50px;
+    height: 120px;
     display: inline-block;
-    font-size: 14px;
+}
+.footer .foot1{
+    position: absolute;
+    top: 30px;
+    margin-left: 60px;
+    display: inline-block;
+    font-family: arial;
+    font-size: 20px;
+}
+
+.footer .foot1 a{
+    font-size: 13px;
     color: black;
-
+}
+.footer .foot2 {
+    display: inline-block;
+    margin-left: 300px;
 }
 
 
+/* Ukuran desktop untuk HOME*/
 
-
-/* Untuk Blog */
 @media (min-width: 992px) { 
-    .blog1 {
-        margin-left: 0;
-        position: relative;
-        margin-top: 100px;
+    .nav-link{
+        font-family: 'Palanquin Dark';
+        font-size: 22px;
+        margin-left: 20px;
     }
-    .blog1 img{
-        height: 400px;
+
+    .nav-link:hover::after {
+        border-bottom: 3px solid #FF04E6  ;
+        content: '';
+        display: block;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+    .banner h1{
+        font-size: 75px;
+    }
+    .banner p {
+        font-size: 15px;
+        margin-top: 5px;
+        margin-bottom: 60px;
+    }
+    .banner img { 
         position: absolute;
-        
+        height: 490px;
+        right: 60px;
+        top: 0;
     }
-    .blog1 p{
-        margin-left: 680px; 
-        font-size: 16px;
-        text-align: justify;
-    }   
-    .blog1 h4 {
-        font-size: 27px;
-        margin-left: 680px;
+    .banner .tombol a {
+        padding: 20px 10px;
+        font-size: 20px;
     }
-    .blog1 .readme img {
-        height: 50px;
-        margin-top: 100px;
-        top: 260px;
-        right: 0;
-        margin-right: 0;
-       
+    .lay1 {
+        margin-top: 0;
     }
-    .blog2 {
-        margin-top: 250px;
-        height: 190vh;
+    .lay1 h1{
+       font-size: 40px;
+       padding-top: 30px;
+       padding-bottom: 40px;
     }
-    .blog2 .blog2-1 {
+    .lay1 p {
+        font-size:15px;
+        color: #535353;
+        padding-bottom: 50px;
+    }
+    .lay2 {
         height: 600px;
-        width: 44%;
-        margin-right: 53px;
-        margin-bottom: 40px;
+        margin-top: 60px;
     }
-    .blog2 .blog2-1 img {
-        height: 280px;
+    .lay2 img{
+        height: 500px;
+        margin-top:-140px ;
+        position: absolute;
+        margin-left: 0;
     }
-    .blog2 .blog2-1 p {
-        font-size: 16px;
-        width: 80%;
+    .lay2 h1 {
+        margin-left: 500px;
+        padding-top: 50px;
+        font-family: arial;
+        color:#F5A25D ;
+        font-size: 50px;
+        padding-bottom: 40px;
     }
-    .blog2 .blog2-1 h4 {
-        font-size: 24px;
+    .lay2 p {
+        text-align: left;
+        font-family: arial;
+        margin-left: 570px;
+        font-size: 20px;
+        color: #4D4D4D;
+    
     }
-    .blog2 .blog2-1 .readme img{
-        height: 40px;
-        margin-left: 350px;
-        margin-top: 20px;
+    .lay3{
+        margin-top: 0;
     }
-    .halaman {
+    .lay3 h1 {
+        font-size: 40px;
+    }
+    .lay3 p {
+        font-size:15px;
+        color: #535353;
+        padding-bottom: 50px;
+    }
+    .lay4 img {
+        margin-top: 90px;
+        height: 160px;
+    }
+    .lay5 {
+
         margin-top: 50px;
-        height: 200px;
+        height: 600px;
+    }
+    .lay5 h1 {
+        margin-left: 100px;
+        padding-top: 50px;
+        font-size: 50px;
+        padding-bottom: 40px;
+    }
+    .lay5 p {
+        width: 500px;
+        font-size: 20px;
+    }
+    .lay5 img {
+        height: 500px;
+        margin-top: -100px;
+        position: absolute;
+        margin-left: 500px;
+    }
+    .lay6 img {
+        margin-top: 80px;
+        height: 480px;
+    }
+    .footer {
+        background-color: #FBF8F8;
+        height: 465px;
         position: relative;
     }
-    .halaman1 {
-        margin-left: 15%;
-    }
-    .halaman .halaman1  img {
-        height: 60px;
-    }
-    .halaman .halaman1 h5 {
-        margin: 0 30px;
-        padding: 15px 20px; 
-        background-color:#F6F6F6 ;
+    .footer img{
+        margin-top: 110px;
+        height: 220px;
         display: inline-block;
-        font-size: 18px;
     }
-
-}
-
-
-
-
+    .footer .foot1{
+        position: absolute;
+        top: 100px;
+        margin-left: 60px;
+        display: inline-block;
+        font-family: arial;
+        font-size: 30px;
+    }
+    
+    .footer .foot1 a{
+        font-size: 17px;
+        color: black;
+    }
+    .footer .foot2 {
+        display: inline-block;
+        margin-left: 430px;
+    }
+    
 
