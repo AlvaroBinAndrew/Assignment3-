@@ -1,6 +1,3 @@
-
-/*  Ini untuk index*/
-
 * {
     margin: 0;
     padding: 0;
@@ -319,10 +316,20 @@
         margin-left: 430px;
     }
     
-    
-    
-    
-    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /* ======== Ini buat BLOG =========== */
 .blog1 {
     margin-left: 100px;
@@ -482,6 +489,10 @@
 
 }
 
+
+
+
+
 /* Konseling */
 .konsel1 {
     padding-bottom: 50px;
@@ -530,10 +541,3 @@
     }
     
  }
-
-    
-    
-    
-    
-    
-
