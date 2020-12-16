@@ -482,7 +482,54 @@
 
 }
 
+/* Konseling */
+.konsel1 {
+    padding-bottom: 50px;
+    border-bottom: 1px solid black;
+}
+.konsel1 img {
+    margin-top: 100px;
+    height: 300px;
+    margin-bottom: 50px;
+}
 
+.konsel2 img{
+    margin-top: 100px;
+    height: 700px;
+    margin-left: 10%;
+}
+.konsel3 img {
+    margin-top: 80px;
+    height: 300px;
+    margin-bottom: 150px;
+}
+
+
+/* Untuk Konseling */
+@media (min-width: 992px) {
+   
+    .konsel1 {
+        padding-bottom: 50px;
+        border-bottom: 2px solid black;
+    }
+    .konsel1 img {
+        margin-top: 100px;
+        height: 500px;
+        margin-bottom: 50px;
+    }
+    
+    .konsel2 img{
+        margin-top: 100px;
+        height: 1200px;
+        margin-left: 10%;
+    }
+    .konsel3 img {
+        margin-top: 180px;
+        height: 480px;
+        margin-bottom: 150px;
+    }
+    
+ }
 
     
     
