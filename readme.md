@@ -6,4 +6,7 @@
 * Yafeth AP (1313619041)
 <br> <br>
 
+## Final Report 
+[Click Disini!](https://github.com/AlvaroBinAndrew/Assignment3-/blob/Final-Project/LaporanIMK_Final%20.pdf) untuk melihat laporan
+
 # Curcin | Curhatan Cinta  
